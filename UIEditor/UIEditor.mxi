@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<macromedia-extension
+	 name="UIEditor"
+	 version="1.0.0"
+	 type="command"
+	 locked="false">
+
+	<author name="Sloppy" />
+
+	<products>
+		<product name="Flash" version="11" primary="true" />
+		<product name="Flash" version="12" primary="true" />
+		<product name="Flash" version="13" primary="true" />
+	</products>
+
+	<update  />
+
+	<description>
+	</description>
+
+	<ui-access>
+	</ui-access>
+
+	<license-agreement>
+	</license-agreement>
+
+	<files>
+		<file source="UIEditor/UIEditor.jsfl" destination="$flash/WindowSWF/UIEditor" file-type="ordinary" />
+		<file source="UIEditor/json2.js" destination="$flash/WindowSWF/UIEditor" file-type="ordinary" />
+		<file source="UIEditor.swf" destination="$flash/WindowSWF" file-type="ordinary" />
+	</files>
+
+	<signatures />
+
+</macromedia-extension>

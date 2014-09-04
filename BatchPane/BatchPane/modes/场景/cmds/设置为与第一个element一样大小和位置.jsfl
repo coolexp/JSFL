@@ -1,0 +1,1 @@
+if(elementId==elementArr.length-1){}else{        //先置0，否则可能会有误差    element.matrix={a:1,b:0,c:0,d:1,tx:0,ty:0};    element.setTransformationPoint({x:0,y:0});        var cankao_element=elementArr[elementArr.length-1];    element.x=cankao_element.x;    element.y=cankao_element.y;    element.width=cankao_element.width;    element.height=cankao_element.height;}

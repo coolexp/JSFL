@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx"  width="200" height="260" creationComplete="application1_creationCompleteHandler(event)">
+	<fx:Script>
+		<![CDATA[
+			import com.coolexp.manager.JSFLManager;
+			import com.coolexp.vo.ActionVO;
+			
+			import mx.collections.ArrayCollection;
+			import mx.controls.Alert;
+			import mx.events.FlexEvent;
+			private var loader:URLLoader;
+			private static const JSFL_URL:String = "ExpFlashTooler/ExpFlashTooler.jsfl";
+			protected function application1_creationCompleteHandler(event:FlexEvent):void
+			{
+				// TODO Auto-generated method stub
+				loader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE,onCompleteHandler);
+				loader.addEventListener(IOErrorEvent.IO_ERROR,onIOErroHandler);
+				loader.dataFormat = flash.net.URLLoaderDataFormat.BINARY;
+				initJSFL();
+			}
+			
+			protected function onCompleteHandler(event:Event):void
+			{
+				// TODO Auto-generated method stub
+				var urlLoader:URLLoader = event.currentTarget as URLLoader;
+				urlLoader.removeEventListener(Event.COMPLETE,onCompleteHandler);
+				urlLoader.removeEventListener(IOErrorEvent.IO_ERROR,onIOErroHandler);
+				var ba:ByteArray = event.target.data as ByteArray;
+				var xml:XML = new XML(ba.toString());
+				var list:ArrayCollection = new ArrayCollection();
+				for each(var node:XML in xml.children()){
+					list.addItem(ActionVO.parse(node));
+				}
+				actionList.dataProvider = list;
+			}
+			
+			protected function onIOErroHandler(event:IOErrorEvent):void
+			{
+				// TODO Auto-generated method stub
+				Alert.show("加载配置文件失败");
+			}
+			private function initJSFL():void{
+				var urlLoader:URLLoader = new URLLoader();
+				urlLoader.addEventListener(Event.COMPLETE,jsFileHandler);
+				urlLoader.addEventListener(IOErrorEvent.IO_ERROR, this.jsFileHandler);
+				urlLoader.load(new URLRequest(JSFL_URL));
+			}
+			private function jsFileHandler(e:Event):void{
+				var urlLoader:URLLoader = e.currentTarget as URLLoader;
+				urlLoader.removeEventListener(Event.COMPLETE, jsFileHandler);
+				urlLoader.removeEventListener(IOErrorEvent.IO_ERROR, jsFileHandler);
+				switch (e.type){
+					case IOErrorEvent.IO_ERROR:
+						Alert.show("初始化失败");
+						return;
+					case Event.COMPLETE:
+						if (JSFLManager.getInstance().isAvailable){
+							JSFLManager.getInstance().action(e.target.data);
+						};
+						break;
+				};
+				loader.load(new URLRequest("ActionList.xml"));
+			}
+			
+		]]>
+	</fx:Script>
+	<s:List id="actionList"   itemRenderer="com.coolexp.item.ActionItemRender" width="100%" height="100%">
+		
+	</s:List>
+</s:Application>

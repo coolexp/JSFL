@@ -1,0 +1,1 @@
+if(item.linkageExportForAS){	item.linkageClassName=" ";//不能用 "" 否则会报错 - -0	item.linkageExportForAS=false;//取消为 ActionScript  导出}

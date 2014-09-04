@@ -1,0 +1,93 @@
+﻿<rec x="0" y="0" name="HAIDAOCHUAN_SHIP">
+	<!-- 海盗船 -->
+	<sprite key="panelcorsair" n="panelcorsair" t="rec" x="175" y="129" vb="0">
+		<sprite key="outlinebg" n="title_outBox_all" x="192" y="8" sx="75" sy="0" sw="1" sh="0" sor="1" w="300" h="49"/>
+		<sprite key="csTextitle" n="csTextitle" x="286" y="23"/>
+		<sprite key="baGround" n="all_Panel_Background" x="0" y="0" sx="50" sy="50" sw="1" sh="1" sor="1" w="657" h="492"/>
+		<sprite key="dataList" n="dataList" t="rec" x="57" y="75">
+			<!-- 当前属性 -->
+			<sprite key="attributeData" n="attributeData" x="0" y="0"/>
+			<sprite key="descText" n="descText" x="10" y="10" t="text" v="海盗船在竞技场,遭遇战,夺岛战,挑战BOSS中对队员有加成!改造海盗船可以增加船经验以及提升星级,升满10星则可以幻化成新的海盗船!" m="1" leading="5" b="0" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="167" h="100"/>
+			<sprite key="currentData" n="currentData" t="rec" x="11" y="90">
+				<sprite key="ranking" n="ranking" t="text" x="0" y="30" v="目前属性" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="100" h="20"/>
+				<sprite key="strength" n="strength" t="text" x="10" y="52" v="力量" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="35" h="20"/>
+				<sprite key="nimble" n="nimble" t="text" x="10" y="76" v="敏捷" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="35" h="20"/>
+				<sprite key="technique" n="technique" t="text" x="10" y="100" v="技巧" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="35" h="20"/>
+				<sprite key="lifeBlood" n="lifeBlood" t="text" x="10" y="124" v="生命" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="35" h="20"/>
+				<sprite key="textPower" n="textPower" t="text" x="50" y="53" v="" b="0" tc="0xFFF799" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="95" h="20"/>
+				<sprite key="agileText" n="agileText" t="text" x="50" y="77" v="" b="0" tc="0xFFF799" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="95" h="20"/>
+				<sprite key="trickText" n="trickText" t="text" x="50" y="101" v="" b="0" tc="0xFFF799" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="95" h="20"/>
+				<sprite key="lifeText" n="lifeText" t="text" x="50" y="125" v="" b="0" tc="0xFFF799" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="95" h="20"/>
+			</sprite>
+			<!-- 下一级属性 -->
+			<sprite key="nextLevelData" n="nextLevelData" t="rec" x="11" y="255">
+				<sprite key="ranking" n="ranking" t="text" x="0" y="30" v="下一级属性" tc="0xFFFF00" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="100" h="20"/>
+				<sprite key="strength" n="strength" t="text" x="10" y="52" v="力量" tc="0xFFFF00" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="35" h="20"/>
+				<sprite key="nimble" n="nimble" t="text" x="10" y="76" v="敏捷" tc="0xFFFF00" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="35" h="20"/>
+				<sprite key="technique" n="technique" t="text" x="10" y="100" v="技巧" tc="0xFFFF00" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="35" h="20"/>
+				<sprite key="lifeBlood" n="lifeBlood" t="text" x="10" y="124" v="生命" tc="0xFFFF00" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="35" h="20"/>
+				<sprite key="textPower" n="textPower" t="text" x="50" y="53" v="" b="0" tc="0xFFFF00" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="95" h="20"/>
+				<sprite key="agileText" n="agileText" t="text" x="50" y="77" v="" b="0" tc="0xFFFF00" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="95" h="20"/>
+				<sprite key="trickText" n="trickText" t="text" x="50" y="101" v="" b="0" tc="0xFFFF00" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="95" h="20"/>
+				<sprite key="lifeText" n="lifeText" t="text" x="50" y="125" v="" b="0" tc="0xFFFF00" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="95" h="20"/>
+			</sprite>
+		</sprite>
+		<!-- 船只预览 -->
+		<sprite key="shipView" n="shipView" t="rec" x="245" y="76">
+			<sprite key="insideBackground" n="inside_Box_background" x="0" y="0" sx="15" sy="15" sw="1" sh="1" sor="1" w="380" h="414"/>
+			<sprite key="viewShip" n="shipBackground" x="8" y="8"/>
+			<sprite key="shipMCview" n="shipMCview" t="blank" x="8" y="8"/>
+			<sprite key="seawaterMC" n="seawaterMC" t="cmc" fps="12" x="8" y="230"/>
+			<sprite key="starShip_BG" n="starShip1" x="7,37,67,97,127,157,187,217,247,277" y="6,6,6,6,6,6,6,6,6,6"/>
+			<sprite key="starShip" n="starShip0" x="7,37,67,97,127,157,187,217,247,277" y="6,6,6,6,6,6,6,6,6,6" vb="0"/>
+			<sprite key="starShipFull" n="starShip2" x="7,37,67,97,127,157,187,217,247,277" y="6,6,6,6,6,6,6,6,6,6" vb="0"/>
+			<sprite key="banner" n="banner_Sor_Blue" x="104" y="247" sx="20" sy="0" sw="1" sh="0" sor="1" w="172" h="43"/>
+			<sprite key="shiftNumber" n="clrNumber" statelist="0,1,2,3,4,5,6,7,8,9" t="si" x="120,140" y="260,260"/>
+			<sprite key="rotatesShip" n="rotatesShip" x="160" y="260"/>
+			<sprite key="shipName" n="shipName" t="text" x="185" y="261" v="" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="75" h="20"/>
+			<sprite key="tpButton" n="smallBlue_General_Button" statelist="0,1,2,3" t="btn" x="286" y="247" text="幻 化" b="1" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="83" h="30"/>
+			<!-- 进度条 -->
+			<sprite key="schedule" n="cors" t="rec" x="5" y="296">
+				<sprite key="shipExpLoad" n="shipExpLoad" t="cmc" x="2" y="0"/>
+				<sprite key="corstxt" n="corstxt" x="0" y="2" t="text" v="100%" align="c" b="0" tc="0xFFF799" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="368" h="26"/>
+			</sprite>
+		</sprite>
+		<!-- 改造按钮 -->
+		<sprite key="ordinaryReform" n="ordinaryReform" statelist="0,1,2,3" t="btn" x="277" y="404" w="67" h="76"/>
+		<sprite key="goldReform" n="goldReform" statelist="0,1,2,3" t="btn" x="402" y="404" w="70" h="76"/>
+		<sprite key="advancedReform" n="advancedReform" statelist="0,1,2,3" t="btn" x="525" y="404" w="74" h="76"/>
+		<sprite key="close" n="close_all" statelist="0,1,2,3" t="btn" x="623" y="45" w="57" h="60"/>
+	</sprite>
+	<!-- 幻化海盗船 -->
+	<sprite key="taiwanPuliShip" n="taiwanPuliShip" t="rec" x="111" y="179" vb="1">
+		<sprite key="outlinebg" n="title_outBox_all" x="232" y="0" sx="75" sy="0" sw="1" sh="0" sor="1" w="300" h="49"/>
+		<sprite key="taiwanPuli" n="taiwanPuli" x="300" y="13"/>
+		<sprite key="baGround" n="all_Panel_Background" x="0" y="0" sx="50" sy="50" sw="1" sh="1" sor="1" w="782" h="415"/>
+		<sprite key="insideBackground" n="inside_Box_background" x="60" y="67" sx="15" sy="15" sw="1" sh="1" sor="1" w="693" h="335"/>
+		<sprite key="line" n="compTools_Line" t="fill" x="61" y="336" w="690" h="2"/>
+		<sprite key="noteText" n="noteText" t="text" x="60" y="75" align="c" b="0" v="幻化不同形象不会影响海盗船的属性，还有更多更酷的船只等你来解锁哦！" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="693" h="20"/>
+		<!-- 船只 -->
+		<sprite key="chShip" n="chShip" t="rec" x="67,295,523" y="97,97,97">
+			<sprite key="normalView" n="normalView" t="rec" x="0" y="0" vb="0">
+				<sprite key="chooseCS" n="chooseCS" statelist="0,1" t="si" st="0" x="0" y="0"/>
+				<!-- 船只图片 -->
+				<sprite key="tpShipIMG" n="tpShipIMG" t="blank" x="6" y="6"/>
+				<sprite key="banner" n="banner_Sor_Blue" x="16" y="184" sx="20" sy="0" sw="1" sh="0" sor="1" w="172" h="43"/>
+				<sprite key="shipName" n="shipName" t="text" x="30" y="197" v="名字名字名字" align="c" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="144" h="20"/>
+				<sprite key="lockView" n="shipLock" x="0" y="0" vb="1"/>
+			</sprite>
+			<sprite key="chooseView" n="chooseView" t="rec" x="0" y="0" vb="1">
+				<sprite key="chooseCS" n="chooseCS" statelist="0,1" t="si" st="1" x="0" y="0"/>
+				<!-- 船只图片 -->
+				<sprite key="tpShipIMG" n="tpShipIMG" t="blank" x="6" y="6"/>
+				<sprite key="orangeBanner" n="banner_Sor_Red" x="16" y="184" sx="20" sy="0" sw="1" sh="0" sor="1" w="172" h="43"/>
+				<sprite key="shipName" n="shipName" t="text" x="30" y="197" v="名字名字名字" align="c" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="144" h="20"/>
+			</sprite>
+		</sprite>
+		<sprite key="pagebg" n="chTxtBoxBlue" sx="8" sy="8" sw="1" sh="1" sor="1" x="378" y="357" w="54" h="20"/>
+		<sprite key="leftarrow" n="back_PageArrow" statelist="0,1,2,3" t="btn" x="329" y="345" w="14" h="20"/>
+		<sprite key="rightarrow" n="next_PageArrow" statelist="0,1,2,3" t="btn" x="437" y="345" w="14" h="20"/>
+		<sprite key="textPage" n="textPage" t="text" x="373" y="359" v="999/999" align="c" b="0" tc="0xFFF799" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="62" h="20"/>
+		<sprite key="close" n="close_all" statelist="0,1,2,3" t="btn" x="753" y="37" w="47" h="48"/>
+	</sprite>
+</rec> 

@@ -1,0 +1,24 @@
+﻿<rec x="0" y="0" name="HAIDAOCHUAN_SHIP">
+	<sprite key="ashy" n="ashy" t="fill" x="0" y="0" w="800" h="480"/>
+			<sprite key="activityText" n="activityText" x="359" y="14"/>
+			<sprite key="compTools_Line" n="striping" t="fill" x="0" y="56" w="800" h="2"/>
+			<sprite key="allActivity" n="allActivity" t="rec" x="6" y="65">
+				<sprite key="everyActivity" n="everyActivity" t="rec" x="0,396,0,396" y="0,0,158,158">
+					<sprite key="gloomySor" n="diashy" x="0" y="0" sx="4" sy="4" sw="2" sh="2" sor="1" w="392" h="150"/>
+					<sprite key="choose" n="chooseActivity" x="0" y="0" sx="5" sy="5" sw="1" sh="1" sor="1" vb="1" w="392" h="150"/>
+					<sprite key="boxActivity" n="boxActivity" x="6" y="8"/>
+					<sprite key="iconActivity" n="iconActivity" statelist="0,1,2,3" t="si" x="30" y="37" w="64" h="64"/>
+					<sprite key="culeMC" n="cube64" t="cmc" fps="12" x="30" y="37"/>
+					<sprite key="nameActivity" n="nameActivity" t="text" x="125" y="12" v="活动名称:" b="0" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="75" h="20"/>
+					<sprite key="timeChallenge" n="timeChallenge" t="text" x="125" y="36" v="挑战时间:" b="0" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="75" h="20"/>
+					<sprite key="textName" n="textName"  t="text" x="187" y="12" v="世界BOSS" b="0" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="135" h="20"/>
+					<sprite key="textTime" n="textTime"  t="text" x="187" y="38" v="" tc="0xFFF799" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="135" h="20"/>
+					<sprite key="targetText" n="targetText"  t="text" x="125" y="60" v="杀死BOSS可获得大量经验" b="0" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="200" h="20"/>
+					<sprite key="solidline" n="solidline" t="fill" x="114" y="93" w="223" h="2"/>
+					<sprite key="checkBox" n="check_Box_AllPanel" statelist="0,0,1,1,2" t="tbtn" x="126" y="99" w="23" h="24"/>
+					<sprite key="autoJoin" n="autoJoin"  t="text" x="180" y="120" v="自动参加" b="0" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="60" h="20"/>
+					<sprite key="nostart" n="nostart"  t="text" x="323" y="120" v="未开始" b="0" tc="0xFFFFFF" hft="1" font="SIMHEI" hasfont="1" gblur="1" gblurvalue="0x000000,1,2,2,20,1" fs="14" w="60" h="20"/>
+				</sprite>
+			</sprite>
+			<sprite key="close" n="close_all" statelist="0,1,2,3" t="btn" x="743" y="0" w="57" h="60"/>
+</rec> 

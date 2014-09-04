@@ -1,0 +1,1 @@
+element.x=Math.round(element.x);element.y=Math.round(element.y);element.setTransformationPoint({x:0,y:0});

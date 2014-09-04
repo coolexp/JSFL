@@ -1,0 +1,49 @@
+<rec>
+  <sprite libname="mcs/haidaochuan" key="sp_1356854865366" name="sp_1356854865366" t="rec" w="713" h="572" x="0" y="0">
+    <sprite libname="MovieClip/shipTitle" key="title" name="title" t="rec" w="300" h="50" x="193" y="0">
+      <sprite libname="bitmaps/shipTitle.png" key="shipTitle" name="shipTitle" t="image" w="300" h="50" x="0" y="0"/>
+    </sprite>
+    <sprite libname="mcs/background" key="all_Panel_Background" name="background" t="scaleimage" w="686" h="561" x="0" y="11" sor="1" sx="100" sy="100" sw="1" sh="1"/>
+    <sprite libname="MovieClip/closeBtn" key="closeBtn_close_all_btn" name="close_all" statelist="0,1,2,0" t="btn" w="57" h="60" x="656" y="22"/>
+    <sprite libname="mcs/data_rec" key="data_rec" name="data_rec" t="rec" w="212" h="458" x="59" y="72">
+      <sprite libname="mcs/dataImage" key="sp_1356854865368" name="sp_1356854865368" t="rec" w="212" h="458" x="0" y="0">
+        <sprite libname="bitmaps/dataImage.png" key="dataImage" name="dataImage" t="image" w="212" h="458" x="0" y="0"/>
+      </sprite>
+      <sprite key="dataText0" name="dataText0" t="text" w="127" h="17" x="59" y="131" v="00000000000" tc="0" hft="1" font="_sans" hasfont="1" fs="0" gblur="1" gblurvalue="0,1,2,2,1000,low"/>
+      <sprite key="dataText1" name="dataText1" t="text" w="127" h="17" x="59" y="159" v="00000000000" tc="0" hft="1" font="_sans" hasfont="1" fs="0" gblur="1" gblurvalue="0,1,2,2,1000,low"/>
+      <sprite key="dataText2" name="dataText2" t="text" w="127" h="17" x="59" y="187" v="00000000000" tc="0" hft="1" font="_sans" hasfont="1" fs="0" gblur="1" gblurvalue="0,1,2,2,1000,low"/>
+      <sprite key="dataText3" name="dataText3" t="text" w="127" h="17" x="59" y="214" v="00000000000" tc="0" hft="1" font="_sans" hasfont="1" fs="0" gblur="1" gblurvalue="0,1,2,2,1000,low"/>
+      <sprite key="dataText4" name="dataText4" t="text" w="127" h="17" x="59" y="335" v="00000000000" tc="0" hft="1" font="_sans" hasfont="1" fs="0" gblur="1" gblurvalue="0,1,2,2,1000,low"/>
+      <sprite key="dataText5" name="dataText5" t="text" w="127" h="17" x="59" y="363" v="00000000000" tc="0" hft="1" font="_sans" hasfont="1" fs="0" gblur="1" gblurvalue="0,1,2,2,1000,low"/>
+      <sprite key="dataText6" name="dataText6" t="text" w="127" h="17" x="59" y="390" v="00000000000" tc="0" hft="1" font="_sans" hasfont="1" fs="0" gblur="1" gblurvalue="0,1,2,2,1000,low"/>
+      <sprite key="dataText7" name="dataText7" t="text" w="127" h="17" x="59" y="418" v="00000000000" tc="0" hft="1" font="_sans" hasfont="1" fs="0" gblur="1" gblurvalue="0,1,2,2,1000,low"/>
+    </sprite>
+    <sprite libname="mcs/shipView_rec" key="detail_rec" name="detail_rec" t="rec" w="385" h="470" x="271" y="72">
+      <sprite libname="mcs/insideBox" key="insideBox" name="insideBox" t="scaleimage" w="385" h="470" x="0" y="0" sor="1" sx="15" sy="15" sw="1" sh="1"/>
+      <sprite libname="mcs/imgView" key="imgView" name="imgView" t="rec" w="364" h="290" x="10" y="10">
+        <sprite libname="bitmaps/imageShip.png" key="imageShip" name="imageShip" t="image" w="364" h="290" x="0" y="0"/>
+      </sprite>
+      <sprite libname="mcs/shipStar_rec" key="shipStar_rec" name="shipStar_rec" t="rec" w="354" h="39" x="10" y="10">
+        <sprite libname="mcs/shipStar" key="star0" name="starShip" statelist="0,1,2" t="tbtn" w="40" h="39" x="0" y="0"/>
+        <sprite libname="mcs/shipStar" key="star1" name="starShip" statelist="0,1,2" t="tbtn" w="40" h="39" x="35" y="0"/>
+        <sprite libname="mcs/shipStar" key="star2" name="starShip" statelist="0,1,2" t="tbtn" w="40" h="39" x="70" y="0"/>
+        <sprite libname="mcs/shipStar" key="star3" name="starShip" statelist="0,1,2" t="tbtn" w="40" h="39" x="105" y="0"/>
+        <sprite libname="mcs/shipStar" key="star4" name="starShip" statelist="0,1,2" t="tbtn" w="40" h="39" x="139" y="0"/>
+        <sprite libname="mcs/shipStar" key="star5" name="starShip" statelist="0,1,2" t="tbtn" w="40" h="39" x="174" y="0"/>
+        <sprite libname="mcs/shipStar" key="star6" name="starShip" statelist="0,1,2" t="tbtn" w="40" h="39" x="209" y="0"/>
+        <sprite libname="mcs/shipStar" key="star7" name="starShip" statelist="0,1,2" t="tbtn" w="40" h="39" x="244" y="0"/>
+        <sprite libname="mcs/shipStar" key="star8" name="starShip" statelist="0,1,2" t="tbtn" w="40" h="39" x="279" y="0"/>
+        <sprite libname="mcs/shipStar" key="star9" name="starShip" statelist="0,1,2" t="tbtn" w="40" h="39" x="314" y="0"/>
+      </sprite>
+      <sprite libname="mcs/nameShip" key="nameShip" name="nameShip" t="rec" w="193" h="43" x="42" y="249">
+        <sprite libname="mcs/nameBg" key="nameBg" name="nameBg" t="scaleimage" w="193" h="43" x="0" y="0" sor="1" sx="20" sy="0" sw="1" sh="43"/>
+        <sprite key="nameTxt" name="nameTxt" t="text" w="100" h="17" x="74" y="15" v="海盗船" tc="0" hft="1" font="_sans" hasfont="1" fs="0" gblur="1" gblurvalue="0,1,2,2,1000,low"/>
+      </sprite>
+      <sprite libname="MovieClip/huanhuaBtn" key="huanhuaBtn" name="red_General_Button" statelist="0,1,2,3" t="btn" w="104" h="44" x="266" y="248" text="幻 化" tc="0" hft="1" font="_sans" hasfont="1" fs="0" gblur="1" gblurvalue="0,1,3,3,1500,low"/>
+      <sprite key="sp_1356854865370" name="sp_1356854865370" t="text" w="360" h="37" x="10" y="425" v="改造海盗船可以增加海盗船经验以及提升星级，升满10星则可以幻化新的海盗船。" tc="0" hft="1" font="_sans" hasfont="1" fs="0" gblur="1" gblurvalue="0,1,3,3,1000,low"/>
+      <sprite libname="MovieClip/gaoji" key="gaoji" name="advancedReform" statelist="0,1,2,3" t="btn" w="72" h="74" x="271" y="332"/>
+      <sprite libname="MovieClip/jinbi" key="jinbi" name="goldReform" statelist="0,1,2,3" t="btn" w="68" h="74" x="153" y="332"/>
+      <sprite libname="MovieClip/putong" key="putong" name="ordinaryReform" statelist="0,1,2,3" t="btn" w="67" h="74" x="34" y="332"/>
+    </sprite>
+  </sprite>
+</rec>
